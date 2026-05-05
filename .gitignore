@@ -10,6 +10,7 @@ outputs/
 *.xls
 *.csv
 *.html
+!full_report_public.xlsx
 
 # IDE settings
 .idea/
