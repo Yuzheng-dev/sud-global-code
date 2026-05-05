@@ -6,8 +6,11 @@ Python scripts for analyzing a French media corpus about the Global South.
 
 - `bertopic_sud_global.py`: topic modeling with BERTopic, UMAP, HDBSCAN, and French lemmatization.
 - `word_vector_sud_global.py`: yearly BERT-based word-vector analysis for terms related to `sud_global`.
+- `full_report_public.xlsx`: public topic report with representative full-text documents removed.
 
-The corpus data is not included. The scripts expect an Excel file with at least:
+The full news discourse corpus is not publicly included because releasing all collected reporting texts may raise copyright concerns. If you need access to the full `Texte` column and the related `Date` metadata for research purposes, please contact the author at yzwu25@stu.pku.edu.cn.
+
+The scripts expect an Excel file with at least:
 
 - `Texte`: article text
 - `Date`: article date, required by `word_vector_sud_global.py`
