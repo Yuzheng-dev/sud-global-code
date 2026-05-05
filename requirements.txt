@@ -1,0 +1,12 @@
+bertopic
+gensim
+hdbscan
+nltk
+numpy
+openpyxl
+pandas
+scikit-learn
+spacy
+torch
+transformers
+umap-learn

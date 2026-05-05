@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local datasets and generated reports
+data/
+outputs/
+*.xlsx
+*.xls
+*.csv
+*.html
+
+# IDE settings
+.idea/
+.vscode/
